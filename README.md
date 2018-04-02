@@ -4,7 +4,7 @@ Untuk mempermudah dan mempercepat saat ingin menginstall WordPress di Server, se
 ## Penggunaan
 Gunakan perintah berikut pada direktori root website
 ```
-wget https://github.com/iqbalbash/wp-geteasy/blob/master/wp-geteasy.sh
+wget https://raw.githubusercontent.com/iqbalbash/wp-geteasy/master/wp-geteasy.sh
 chmod +x wp-geteasy.sh
 ./wp-geteasy.sh
 ```
