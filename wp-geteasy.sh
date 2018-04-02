@@ -11,5 +11,3 @@ cd wordpress && mv wp-admin wp-content wp-includes index.php license.txt readme.
 
 Menghapus berkas yang tidak terpakai
 cd ../ && rm -rf wordpress latest.zip wp-geteasy.sh
-
-## Sekarang buka domain.tld dibrowser
