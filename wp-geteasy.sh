@@ -17,5 +17,5 @@ cd ../ && rm -rf wordpress latest.zip wp-geteasy.sh
 
 ## Konfigurasi di Browser
 echo "-------------------------------"
-echo "Sekarang buka browser untuk konfigurasi selanjutnya
+echo "Sekarang buka browser untuk konfigurasi selanjutnya"
 echo "-------------------------------"
