@@ -8,6 +8,12 @@ wget https://raw.githubusercontent.com/iqbalbash/wp-geteasy/master/wp-geteasy.sh
 chmod +x wp-geteasy.sh
 ./wp-geteasy.sh
 ```
+### Menghapus
+```
+wget https://raw.githubusercontent.com/iqbalbash/wp-geteasy/master/wp-getremove.sh
+chmod +x wp-getremove.sh
+./wp-getremove.sh
+```
 
 ## Sumber Naskah
 Berkas naskah diambil dari [WordPress.org](https://wordpress.org/latest.zip)
