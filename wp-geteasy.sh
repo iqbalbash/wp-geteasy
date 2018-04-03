@@ -6,15 +6,17 @@ wget https://wordpress.org/latest.zip
 
 ## Ekstrak File
 echo "Mengekstrak WordPress"
-pmonitor -c unzip latest.zip
+echo -ne unzip latest.zip
 
 ## Memindahkan File
 echo "Memindahkan file ke directori $PWD"
-pmonitor -c cd wordpress && pmonitor -c mv index.php readme.html wp-admin wp-comments-post.php wp-content wp-includes wp-load.php wp-mail.php wp-signup.php xmlrpc.php license.txt  wp-activate.php wp-blog-header.php wp-config-sample.php wp-cron.php wp-links-opml.php wp-login.php wp-settings.php  wp-trackback.php ../
+cd wordpress
+echo -ne mv index.php readme.html wp-admin wp-comments-post.php wp-content wp-includes wp-load.php wp-mail.php wp-signup.php xmlrpc.php license.txt  wp-activate.php wp-blog-header.php wp-config-sample.php wp-cron.php wp-links-opml.php wp-login.php wp-settings.php  wp-trackback.php ../
 
 ## Menghapus File
 echo "Menghapus berkas yang tidak terpakai"
-cd ../ && pmonitor -c rm -rf wordpress latest.zip wp-geteasy.sh
+cd ../
+echo -ne rm -rf wordpress latest.zip wp-geteasy.sh
 
 ## Konfigurasi di Browser
 echo "Sekarang buka browser untuk konfigurasi selanjutnya"
