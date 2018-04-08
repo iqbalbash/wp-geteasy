@@ -18,5 +18,5 @@ chmod +x wp-getremove.sh
 ## Sumber Naskah
 Berkas naskah diambil dari [WordPress.org](https://wordpress.org/latest.zip)
 
-## Log
+## Compatible
 03/04/2018 - WordPress v4.9.4
