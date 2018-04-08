@@ -20,3 +20,4 @@ Berkas naskah diambil dari [WordPress.org](https://wordpress.org/latest.zip)
 
 ## Compatible
 03/04/2018 - WordPress v4.9.4
+09/04/2018 - WordPress v4.9.5
